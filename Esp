@@ -68,13 +68,13 @@ local DefaultSettings = {
         ClosestCharacter = false,
         ClosestCursor = true,
         Smoothness = 1,
-        SilentAimHitChance = 50,
+        SilentAimHitChance = 35,
         FovThickness = 1,
         FovTransparency = 1,
         FovSize = 150,
         FovColor = Color3new(1, 1, 1),
-        Aimlock = "Head",
-        SilentAimRedirect = "Head",
+        Aimlock = "Torso",
+        SilentAimRedirect = "Torso",
         BlacklistedTeams = {}
     },
     WindowPosition = UDim2.new(0.5, -200, 0.5, -139);
